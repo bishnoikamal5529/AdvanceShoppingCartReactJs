@@ -6,8 +6,8 @@ export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
-      <Container>
-        <Nav className="me-auto d-flex justify-content-center">
+      <Container className="d-flex justify-content-center">
+        <Nav>
           <Nav.Link to="/" as={NavLink}>
             Home
           </Nav.Link>
@@ -23,7 +23,7 @@ export function Navbar() {
             onClick={openCart}
             style={{ width: "3rem", height: "3rem", position: "relative" }}
             variant="outline-primary"
-            className="rounded-circle"
+            className="rounded-circle position-fixed end-0 me-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
