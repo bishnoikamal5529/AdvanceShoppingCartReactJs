@@ -22,8 +22,8 @@ export function Navbar() {
           <Button
             onClick={openCart}
             style={{ width: "3rem", height: "3rem", position: "relative" }}
-            variant="outline-primary"
-            className="rounded-circle position-fixed end-0 me-1"
+            variant="outline-info"
+            className="rounded-circle position-absolute end-0 me-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
