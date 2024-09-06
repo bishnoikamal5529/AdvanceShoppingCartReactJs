@@ -6,8 +6,13 @@ export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart()
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+<<<<<<< HEAD
+      <Container>
+        <Nav className="me-auto d-flex justify-content-center">
+=======
       <Container className="d-flex justify-content-center">
         <Nav>
+>>>>>>> 479986fc276eb25536599d86c559350d326469a4
           <Nav.Link to="/" as={NavLink}>
             Home
           </Nav.Link>
