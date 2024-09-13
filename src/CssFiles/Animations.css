@@ -23,4 +23,33 @@
     display: inline-block; /* Ensures the animation only affects the text */
   }
 
-  
+  /* Container with background image and blur effect */
+.blur-background {
+  position: relative; /* Establish a positioning context */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  height: 80vh;
+  width: auto;
+  border-radius: 10px;
+}
+
+.blur-background::before {
+  content: ""; /* Necessary for pseudo-elements */
+  position: absolute; /* Absolute positioning to cover the entire div */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: url('/public/imgs/homepage_background.jpg') no-repeat center center;
+  background-size: cover;
+  filter: blur(10px); /* Adjust blur intensity as needed */
+  -webkit-filter: blur(10px);
+  z-index: 0; /* Place it behind the content */
+}
+
+.content {
+  position: relative; /* To ensure it sits above the blurred background */
+  z-index: 1; /* Above the background image */
+  color: white; /* Or any other styling needed */
+  padding: 20px; /* Adjust as needed */
+}

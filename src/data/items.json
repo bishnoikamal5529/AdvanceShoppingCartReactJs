@@ -1,26 +1,63 @@
 [
-  {
-    "id": 1,
-    "name": "Book",
-    "price": 10.99,
-    "imgUrl": "/imgs/book.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Computer",
-    "price": 1199,
-    "imgUrl": "/imgs/computer.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Banana",
-    "price": 1.05,
-    "imgUrl": "/imgs/banana.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Car",
-    "price": 14000,
-    "imgUrl": "/imgs/car.jpg"
-  }
-]
+    {
+      "id": 1,
+      "name": "Book",
+      "price": 10.99,
+      "imgUrl": "/imgs/book.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 1199,
+      "imgUrl": "/imgs/computer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "price": 1.05,
+      "imgUrl": "/imgs/banana.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "price": 14000,
+      "imgUrl": "/imgs/car.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Smartphone",
+      "price": 799.99,
+      "imgUrl": "/imgs/smartphone.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Headphones",
+      "price": 149.99,
+      "imgUrl": "/imgs/headphones.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Coffee Maker",
+      "price": 89.99,
+      "imgUrl": "/imgs/coffee-maker.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Watch",
+      "price": 299.99,
+      "imgUrl": "/imgs/watch.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Backpack",
+      "price": 45.00,
+      "imgUrl": "/imgs/backpack.jpg"
+    },
+    {
+      "id": 10,
+      "name": "T-shirt",
+      "price": 19.99,
+      "imgUrl": "/imgs/tshirt.jpg"
+    }
+  ]
+  
