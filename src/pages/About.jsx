@@ -6,5 +6,6 @@ export function About() {
   <div className="text-center">
     <h1 className="slide-in">About</h1>
   </div>
+  <AboutPage />
 </>
 }
