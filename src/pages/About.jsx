@@ -1,4 +1,5 @@
 import '../CssFiles/Animations.css'
+import { AboutPage } from '../components/AboutPage'
 
 export function About() {
   return <>
