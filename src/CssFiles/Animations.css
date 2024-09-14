@@ -53,3 +53,58 @@
   color: white; /* Or any other styling needed */
   padding: 20px; /* Adjust as needed */
 }
+
+.text1{
+  animation-name: slideFromRight;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 500ms;
+  animation-fill-mode:forwards;
+  transform: translateX(100%);
+}
+
+@keyframes slideFromRight {
+    from{
+      transform: translateX(100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+}
+
+.text2{
+  animation-name: slideFromleft;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode:forwards;
+  transform: translateX(-110%);
+}
+
+@keyframes slideFromleft {
+    from{
+      transform: translateX(-100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+}
+
+.text3{
+  animation-name: slideFromRight;
+  animation-timing-function: ease;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode:forwards;
+  transform: translateX(100%);
+}
+
+@keyframes slideFromRight {
+    from{
+      transform: translateX(100%);
+    }
+    to{
+      transform: translateX(0%);
+    }
+}
+
