@@ -4,7 +4,7 @@ export function AboutPage() {
 
   return <>
     <div className="blur-background background-image m-1">
-        <div className="content d-flex h-100 pt-3 flex-column flex-sm-row align-items-center justify-content-sm-evenly">
+        <div className="content d-flex h-100 pt-3 flex-column flex-sm-row align-items-center justify-content-md-evenly justify-content-center">
 
             <div className="overflow-hidden d-flex flex-column m-5 ms-2 ms-md-3 ms-lg-5">
                 <span className="text1 h1">Discover</span>
