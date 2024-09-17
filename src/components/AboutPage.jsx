@@ -3,7 +3,7 @@ import "../CssFiles/Animations.css"
 export function AboutPage() {
 
   return <>
-    <div className="blur-background background-image m-1">
+    <div className="blur-background m-1">
         <div className="content d-flex h-100 pt-3 flex-row align-items-center justify-content-md-evenly justify-content-center">
 
             <div className="overflow-hidden d-flex flex-column m-5 ms-2 ms-md-3 ms-lg-5">
