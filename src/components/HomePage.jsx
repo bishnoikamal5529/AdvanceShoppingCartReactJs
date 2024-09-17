@@ -14,7 +14,7 @@ export function HomePage() {
           Discover effortless shopping with intelligent features designed to enhance your experience.
           </h3>
 
-          <a href="/store" className="h5 btn btn-success text-white px-5 py-2">
+          <a href="#" className="h5 btn btn-success text-white px-5 py-2">
             Head Over To Store Page!
           </a>
 
