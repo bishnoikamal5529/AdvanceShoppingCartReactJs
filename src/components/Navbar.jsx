@@ -1,5 +1,4 @@
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 
 export function Navbar() {
@@ -7,16 +6,8 @@ export function Navbar() {
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
       <Container className="d-flex justify-content-center">
-        <Nav>
-          <Nav.Link to="/" as={NavLink}>
-            Home
-          </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
-            Store
-          </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
-            About
-          </Nav.Link>
+        <Nav className="pt-2 pb-2">
+          Store
         </Nav>
         {cartQuantity > 0 && (
           <Button
